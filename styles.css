@@ -3,6 +3,15 @@ body
    background-color:hsla(120,100%,25%,0.3);
 }
 
+h1
+{
+   text-align:center;
+   font-weight:bold;
+}
+
 .links
 {
+   float:left;
+   background-color:hsl(120, 100%, 25%);
 }
+

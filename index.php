@@ -7,7 +7,14 @@
   <title>Welcome to Jordan Balls' Homepage!</title>
 
 <body>
-<p>Hello</p>
+ <h1>Jordan Balls CS313 Home Page</h1>
+ <div class="links">
+  <a href="index.php">Home</a><br/>
+  <a href="assignments.html">Assignments</a>
+ </div>
+
+
+
 </body>
 
 </html>
