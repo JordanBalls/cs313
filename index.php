@@ -20,7 +20,12 @@
   <img id="self" src="main.jpg" alt="Me!" width="300" height="300">
  </div>
 
-
+ <div class="main">
+  <p>
+   Welcome! My name is Jordan Balls and I study Computer Science at BYU-Idaho.
+  </p>
+ </div>
+   
 </body>
 
 </html>
