@@ -22,10 +22,10 @@
 
  <div class="main">
   <p>
-   Welcome! My name is Jordan Balls and I study Computer Science at BYU-Idaho.<br/>
-   I've recently become very interested in computer security.<br/>
+   Welcome! My name is Jordan Balls and I study Computer Science at BYU-Idaho.<br/><br/>
+   I've recently become very interested in computer security.<br/><br/>
    I elected to take this class because I believed it would teach me skills
-   that would make me more valuable and look good on a resume.<br/>
+   that would make me more valuable and look good on a resume.<br/><br/>
    In my free time, I enjoy the following:<br/>
    <ul>
    <li> Working Out (trying to bulk up!)</li>
