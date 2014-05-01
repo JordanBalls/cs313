@@ -16,7 +16,7 @@
  </div>
 
  <div class="right">
-  <img id="self" src="main.jpg" alt="Me!" width="300" height="right300"/>
+  <img id="self" src="main.jpeg" alt="Me!" width="300" height="right300"/>
  </div>
 
 
