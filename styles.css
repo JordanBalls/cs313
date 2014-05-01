@@ -6,7 +6,6 @@ body
 h1
 {
    text-align:center;
-   font-weight:bold;
 }
 
 .links
@@ -18,3 +17,12 @@ h1
    margin-left:200px;
 }
 
+.links:hover
+{
+   background-color:white;
+}
+
+.main
+{
+
+}
