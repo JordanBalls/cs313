@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <link rel="stylesheet" type="text/css" href="styles.css"/>
   <title>Welcome to Jordan Balls' Homepage!</title>
+</head>
 
 <body>
 
@@ -16,7 +17,7 @@
  </div>
 
  <div class="right">
-  <img id="self" src="main.jpg" alt="Me!" width="300" height="300"/>
+  <img id="self" src="main.jpg" alt="Me!" width="300" height="300">
  </div>
 
 
