@@ -1,0 +1,64 @@
+Major,OS,Grade,Internship
+
+CS, Linux, Sophomore, Yes
+CS, Linux, Sophomore, Yes
+CS, Linux, Sophomore, Yes
+CS, Linux, Sophomore, Yes
+CS, Linux, Sophomore, Yes
+CS, Linux, Sophomore, Yes
+CS, Linux, Sophomore, Yes
+, , , 
+CIT, Mac, Freshman, No
+CIT, Mac, Freshman, No
+CIT, Mac, Freshman, No
+CIT, Mac, Freshman, No
+CIT, Mac, Freshman, No
+CIT, Mac, Freshman, No
+CIT, Mac, Freshman, No
+CIT, Mac, Freshman, No
+CIT, Mac, Freshman, No
+CIT, Mac, Freshman, No
+CIT, Mac, Freshman, No
+CIT, Mac, Freshman, No
+CIT, Mac, Freshman, No
+CIT, Mac, Freshman, No
+CIT, Mac, Freshman, No
+CE, Other, Senior, No
+CE, Other, Senior, No
+CE, Other, Senior, No
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+Web, Linux, Sophomore, Yes
+Web, Linux, Sophomore, Yes
+Web, Linux, Sophomore, Yes
+Web, Linux, Sophomore, Yes
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+, , , 
+Other, Windows, Senior, Yes
+Other, Windows, Senior, Yes
+Other, Windows, Senior, Yes
+Other, Windows, Senior, Yes
+, , , 
+, , , 
+, , , 
