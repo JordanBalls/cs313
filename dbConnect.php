@@ -18,6 +18,7 @@ function loadDatabase()
 		$dbPassword = "php-pass";
 		$dbHost = "127.0.0.1";
 		$dbName = "project";
+		$dbPort = 3306;
 	}
 	else
 	{
