@@ -12,7 +12,7 @@
 <h1> Review Query for a Specific Restaurant</h1>
 <?php
 
-require(dbConnect.php);
+require("dbConnect.php");
 
 try
 {
