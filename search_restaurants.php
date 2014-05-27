@@ -12,11 +12,11 @@
 <h1> Review Query for a Specific Restaurant</h1>
 <?php
 
+require(dbConnect.php);
+
 try
 {
-$user = "php";
-$password = "php-pass";
-$db = new PDO("mysql:host=127.0.0.1;dbname=project", $user, $password);
+$db = loadDatabase();
 }
 
 catch(PDOException $ex)
