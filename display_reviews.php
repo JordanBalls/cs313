@@ -11,6 +11,7 @@
 
 <h1> Reviews for 
 <?php
+session_start();
 require("dbConnect.php");
 
 try
@@ -36,7 +37,12 @@ echo $row['name'];
 <div class="links">
   <a href="project_home.php">Home</a><br/>
   <a href="all_restaurants.php">Restaurants</a><br/>
-  <a href="new_user.php">Create Account</a>
+  <?php
+  if(isset($_SESSION['username']))
+  echo '<a href="add_review.php">Add Review</a>';
+  else
+  echo '<a href="new_user.php">Create Account</a>';
+  ?>
  </div>
  
  <div class="main">
