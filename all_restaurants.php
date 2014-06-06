@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -21,7 +24,6 @@
   ?>
  </div>
 <?php
-session_start();
 require("dbConnect.php");
 
 try
