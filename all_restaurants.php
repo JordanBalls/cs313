@@ -46,7 +46,7 @@ foreach($rows AS $row)
 echo '<b> Name: ' . '<a href="display_reviews.php?id=' . $row['id'] . '">' . $row['name'] . '</a>' 
      . "<br/> Address: " . $row['address'] . '</b>';
 	 if (isset($_SESSION['username']))
-	 echo '<input type="button" value="Add Review">';
+	 echo '<form action="add_review.php" method="POST"><input type="button" value="Add Review"></form>';
 	 echo '<br/>';
 }
 echo '</div>';
