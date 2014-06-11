@@ -105,7 +105,16 @@ echo
 ?>
 
 <?php
+require("dbConnect.php");
+try
+{
+  $db = loadDatabase();
+}
 
+catch(PDOException $ex)
+{
+  die("dead");
+}
 // If user submitted a value other than "", continue
 if (isset($_POST['restaurant']) && $_POST['restaurant'] != "")
 {
