@@ -2,26 +2,62 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <link rel="stylesheet" type="text/css" href="styles.css"/>
-  <title>Assignment Page</title>
+  <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href = "css/bootstrap.min.css">
+  <title>Create Account</title>
 </head>
 <body>
-<h1> Create User Account </h1>
+<div class = "navbar navbar-inverse navbar-static-top">
+   <div class = "container">
+   
+      <a href="#" class = "navbar-brand">Restaurant Reviews </a>
+	  
+	  <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+	     <span class = "icon-bar"></span>
+	     <span class = "icon-bar"></span>
+	     <span class = "icon-bar"></span>
+	  </button>
+      <div class = "collapse navbar-collapse navHeaderCollapse">
+	     <ul class = "nav navbar-nav navbar-right">
+		   <li><a href="project_home.php">Home</a></li>
+		   <li><a href="all_restaurants.php">Restaurants</a></li>
+		   <?php
+		   
+             if(isset($_SESSION['username']))
+			 {
+               echo '<li class = "active"><a href="add_review.php">Add Review</a></li>';
+			   echo '<li><a href="logout.php">Logout</a></li>';
+			 }
+             else
+               echo '<li class = "active"><a href="new_user.php">Create Account</a></li>';
+           ?>
+		 </ul>
+	  </div>
+   </div>
+</div>
 
-<div class="links">
-  <a href="project_home.php">Home</a><br/>
-  <a href="all_restaurants.php">Restaurants</a><br/>
-  <a href="new_user.php">Create Account</a>
- </div>
+<div class = "container text-center">
+  <div class = "jumbotron"> 
+  <h1> Account Creation </h1>
+  <p>Use the form below to create an account!</p>
+  </div>
+</div>
 
-
-<div class="main">
 <form action="" method="POST">
-Username: <input type="text" name="username"></br>
-Password: <input type="password" name="password"></br>
-Re-type Password: <input type="password" name="passwordCheck"></br>
-<input type="submit" value="Submit">
+  <div class = "form-inline form-group text-center">
+    <label for="uname">Username</label>
+    <input type="text" name="username" class = "form-control" id = "uname"><br/><br/>
+  </div>
+  <div class = "form-inline form-group text-center">
+    <label for="pass">Password</label>
+    <input type="password" name="password" class = "form-control" id = "pass"><br/><br/>
+  </div>
+  <div class = "form-inline form-group text-center">
+    <label for="repass">Re-Enter Pass</label>
+    <input type="password" name="passwordCheck" class = "form-control" id = "repass"></textarea><br/><br/>
+    <input type="submit" value="Submit" class = "btn btn-default">
+    <input type="reset" value="Reset" class = "btn btn-default">
+  </div>
 </form>
 
 <?php
